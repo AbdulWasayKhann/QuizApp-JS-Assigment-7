@@ -1,0 +1,78 @@
+/* @import url('https://fonts.googleapis.com/css??family=josefin+Sans:wght@300;400&display=swap'); */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 300;
+}
+html{
+    font-size: 63.5%;
+}
+.main-div{
+    width: 100vw;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: hsl(206, 92%, 94%);
+}
+.inner-div{
+    width: 40vw;
+    background-color: rgb(170, 217, 255);
+    padding: 3rem 8rem;
+    border-radius: 1rem;
+    box-shadow: 0 1rem 1rem -0.6rem rgba(0, 0, 0, 0.4);
+}
+.inner-div h2{
+    font-size: 3rem;
+    font-weight: 400;
+    margin: 1rem 0 4rem 0;
+
+}
+.inner-div li{
+    font-size: 2rem;
+    margin-top: 1.5rem;
+    list-style: none;
+}
+input{
+    cursor: pointer;
+}
+#submit, .btn{
+    padding: 1rem 3rem;
+    outline: none;
+    font-size: 2rem;
+    font-size: 400;
+    display: block;
+    margin: auto;
+    border-radius: 5px;
+    border: none;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: rgb(134, 127, 235);
+    margin-top: 4rem;
+}
+#submit:hover{
+    background-color: rgb(154, 148, 240);
+}
+#showScore{
+        background-color: rgb(254, 255, 183);
+        margin-top: 3rem;
+        padding: 3rem 4rem;
+        box-shadow: 0 1rem 1rem -0.6rem rgba(0, 0, 0, 0.4);
+        border-radius: 30px;
+}
+#showScore h3{
+    font-size: 3rem;
+    text-align: center;
+}
+#showScore .btn{
+    margin-top: 2rem;
+    background-color: rgba(119, 199, 162, 0.87);
+}
+#showScore .btn:hover {
+    margin-top: 2rem;
+    background-color: rgb(116, 179, 149);
+}
+.scoreArea{
+    display: none;
+}
